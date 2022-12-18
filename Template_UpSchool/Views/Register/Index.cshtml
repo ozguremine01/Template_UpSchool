@@ -1,0 +1,35 @@
+﻿@model UserRegisterViewModel
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+<br />
+
+<div class="container">
+    <form method="post">
+        <label> Üye Adı: </label>
+        <input type="text" class="form-control" asp-for="Name"/>
+        <br />
+
+        <label> Üye Soyadı: </label>
+        <input type="text" class="form-control" asp-for="Surname" />
+        <br />
+
+        <label> Üye Adı: </label>
+        <input type="text" class="form-control" asp-for="Username" />
+        <br />
+
+        <label> Üye Adı: </label>
+        <input type="text" class="form-control" asp-for="Mail" />
+        <br />
+
+        <label> Üye Adı: </label>
+        <input type="text" class="form-control" asp-for="Password"/>
+        <br />
+
+        <button class="btn btn-dark"> Kayıt Ol </button>
+    </form>
+</div>
