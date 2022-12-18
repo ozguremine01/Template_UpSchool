@@ -9,7 +9,7 @@ namespace Template_UpSchool.DAL
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-H7B28ES;database=DBCoreTemplate; integrated security=true");
+            optionsBuilder.UseSqlServer("server=***************;database=DBCoreTemplate; integrated security=true");
         }
 
     }
